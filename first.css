@@ -1,0 +1,67 @@
+body
+{
+    font-family:Roboto;
+    background-color: #ffffff;
+    color: #141850;
+}
+.main-body
+{
+    border-style: solid;
+    border-radius: 2cm;
+    border-color: #f5cac2;
+    background-color: #fae5df;
+}
+h1,h2,h3
+{
+text-align: center;
+color: #303179;
+}
+
+h4
+{
+text-align: left;
+font-weight: bold;
+font-size: 25px;
+}
+article
+{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.main-body,article,figure,figcaption
+{
+    border-style: solid;
+    border-color: #f5cac2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+figure
+{
+text-align: center;
+}
+
+img
+{
+    border-radius: 50%;
+}
+
+
+
+ol
+{
+    list-style-type: url("images/haticon.png");
+}
+li
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+dd
+{
+    text-align: justify;
+}
+
+

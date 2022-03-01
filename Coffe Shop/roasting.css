@@ -2,6 +2,7 @@ body
 {
     background-color: #d2b48c;
     margin: 0px;
+    padding: 0px;
 }
 .nav-bar
 {
@@ -9,6 +10,7 @@ body
     opacity: 80%;
     text-align: right;
     padding: 10px;
+    
 
 }
 
@@ -37,6 +39,15 @@ a:hover
 {
     color: #d2b48c;
 }
+
+blockquote
+{
+    text-align: center;
+    color: #ae3730;
+    font-style: italic;
+    font-weight: bold;
+}
+
 .linking a
 {
     text-decoration: underline;
@@ -53,6 +64,8 @@ h1
     text-align: center;
     font-family:Geneva;
     font-size: 40px; 
+    margin: 0px;
+    
 }
 h2
 {
@@ -98,11 +111,14 @@ ul
 
 #set1
 {
-    background-image: url("images/equi.jpg");
+    background-image: url("images/coffee-beans-g1f39833fe_1920.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
     
 }
 
@@ -115,50 +131,18 @@ ul
     
 }
 
-#set2
-{
-    background-image: url("images/coffee-gbd766ca27_1920.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#set3
-{
-    background-image: url("images/coffee-g95c2734f9_1920.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#set4
-{
-    background-image: url("images/coffee-g2d47bf617_1920.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#set5
-{
-    background-image: url("images/relax-gd36428d83_1920.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .foot
 {
     background-color: #a0522d;
     padding: 2px;
     text-align: center;
-    color: #d6d6d6;
     font-size: 20px;
 }
 
-
+.foot blockquote
+{
+    color: #d6d6d6;
+    font-style: normal;
+    font-weight: normal;
+}
 

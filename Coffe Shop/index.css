@@ -1,6 +1,8 @@
 body
 {
     background-color: #d2b48c;
+    margin: 0px;
+    padding: 0px;
 }
 
 .home
@@ -10,23 +12,22 @@ body
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    height: 600px;
     
 }
 .nav-bar
 {
-    background-color: #ae3730;
+    background-color: #a0522d;
     opacity: 80%;
     text-align: right;
     padding: 10px;
-    border-radius: 15px;
-    
-
 }
 
 nav ul
 {
     list-style-type: none;
-   
+    text-align: right;
+    
 }
 
 nav li
@@ -40,7 +41,7 @@ nav li
 a
 {
     text-decoration: none;
-    color: black;
+    color: #d6d6d6;
 }
 
 a:hover
@@ -51,7 +52,7 @@ a:hover
 
 h1
 {
-    color: #d2b48c;
+    color: #ae3730;
     text-align: center;
     font-family:Geneva;
     font-size: 40px; 
@@ -66,4 +67,12 @@ color: #1d1e22;
 text-align: justify;
 }
 
+.foot
+{
+    background-color: #a0522d;
+    padding: 2px;
+    text-align: center;
+    color: #d6d6d6;
+    font-size: 20px;
+}
 

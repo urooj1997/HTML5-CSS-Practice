@@ -37,12 +37,16 @@ body
     font-size: 20px;
 }
 
+.container form
+{
+    margin: auto;
+    padding: auto;
+}
+
 .container input
 {
     border-radius: 10px;
     border-color: olive;
     margin-top: 50px;
     width: 300px;
-    float: center;
-    
 }
